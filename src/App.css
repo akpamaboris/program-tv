@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 40%;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.title h7 {
+  position: relative;
+  right: 180px;
+  top: 20px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  width: 80%;
+  margin: 0 auto;
+  height: 750px;
+  /* background-color: red; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bl-pr {
+  margin: 0 auto;
+  display: block;
+  width: 40%;
+  margin-top: 60px;
+}
+
+.logo-img {
+  width: 50px;
+  margin: 0 auto;
+  display: block;
+}
+.horaire {
+  font-weight: bold;
+}
+
+.horaire span {
+  display: block;
+  margin-top: 30px;
+  margin-right: 18px;
+}
+
+.block-prog {
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.block-prog img {
+  margin-bottom: 10px;
+  margin-left: 16px;
+  margin-right: 20px;
+}
+.info-prog {
+  margin-left: 16px;
+}
+
+.info-prog h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.info-prog p {
+  margin-bottom: 21px;
+}
+.info-prog h5 {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.info-prog h6 {
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: red;
+  margin-left: 20px;
+}
+
+.info-det {
+  display: flex;
 }
